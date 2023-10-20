@@ -88,18 +88,18 @@ RUN rm /home/builduser/swift-5.9-RELEASE-ubuntu22.04/usr/bin/llvm*
 # you token that will be used to authenticate your fork
 ENV GIT_PAT=""
 
-ENV GIT_USER="jinyus"
-ENV GIT_EMAIL="jinyus@users.noreply.github.com"
+ENV GIT_USER="danmoseley"
+ENV GIT_EMAIL="danmoseley@users.noreply.github.com"
 
 # the repo that will be clone. Most likely your fork
-ENV GIT_REPO="https://github.com/jinyus/related_post_gen.git"
+ENV GIT_REPO="https://github.com/danmoseley/related_post_gen.git"
 
 # incase you use a different name for your fork
 ENV GIT_REPO_NAME="related_post_gen"
 
 ENV TEST_NAME="all"
 
-ENV BRANCH="main"
+ENV BRANCH="play"
 
 ENV DEVICE="Workflow-VM-2vCPU-7GBram"
 
